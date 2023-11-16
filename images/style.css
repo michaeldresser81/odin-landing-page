@@ -1,5 +1,23 @@
-body {
+* {
     margin: 0px;
     padding: 0px;
     font-family: system-ui, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h1 {
+    color: #f9faf8;
+}
+
+.hero {
+    background-color: #1F2937;
+    
+}
+
+.hero a , .hero p {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.image-placeholder {
+    background-color: lightgrey;
 }
