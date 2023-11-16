@@ -34,7 +34,7 @@ h1 {
     background-color: lightgrey;
 }
 
-.information h2 , p {
+.information h2 {
     color: #1F2937;
 }
 
@@ -48,4 +48,38 @@ h1 {
     width: 100px;
     border-radius: 10px;
     border: 3px solid #3882f6;
+}
+.quote  {
+    background-color: lightgrey;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote .signature {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.action-box , .action-box button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.action-box button {
+    border: 2px solid white;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: lightgrey;
 }
