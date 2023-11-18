@@ -24,7 +24,7 @@ h1 {
     /* justify-content: space-between; */
     height: 300px;
     background-color: #1F2937;
-    padding: 24px 120px;
+    padding: 24px 150px;
 }
 
 .hero .top {
@@ -38,22 +38,22 @@ h1 {
     flex: 1;
     justify-content: space-between;
     gap: 48px;
-    align-items: center;
-
+    padding: 40px 0px;
+    
 }
 .hero .left {
     min-width: 300px;
-    flex: 1;
-    
+    flex: 1;    
 }
 
 .hero .right {
     flex: 1;
-    background-color: lightgrey;
+    background-color: grey;
     color: white;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    /* height: 220px; */
 }
 
 .hero ul {
@@ -74,26 +74,44 @@ button {
     border-radius: 8px;
     padding: 8px 24px;
     font-weight: bold;
+}
+
+.hero button {
     margin-top: 16px;
+}
+
+.information {
+    text-align: center;
 }
 
 .information h2 {
     color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 60px;
 }
 
-.information h2 {
-    font-size: 36px;
-    font-weight: bolder;
+.information ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.information li {
+    flex: 0;
+    color: darkgrey;
 }
 
 .info-icon {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 10px;
     border: 3px solid #3882f6;
 }
 .quote  {
     background-color: lightgrey;
+    padding: 120px 220px;
 }
 
 .quote p {
@@ -107,11 +125,39 @@ button {
     font-size: 24px;
     font-weight: bold;
     font-style: normal;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.action {
+    padding: 60px 150px;
+
 }
 
 .action-box {
     background-color: #3882f6;
     color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+.action-left, .action-button-box {
+    display: flex;
+    /* padding: 40px 80px; */
+    
+}
+
+.action-button-box {
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-left {
+    flex-direction: column;
+    flex: 1;
 }
 
 .action-box button {
